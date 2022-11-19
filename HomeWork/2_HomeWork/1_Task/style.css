@@ -1,0 +1,20 @@
+.radius {
+    background: #f0f0f0; /* Цвет фона */
+    border: 1px solid rgb(116, 116, 116); /* Параметры рамки */
+    padding: 15px; /* Поля вокруг текста */
+    margin-bottom: 10px; /* Отступ снизу */
+    border-radius: 30px 30px 30px 30px;
+    width: 150px;
+    height: 150px;
+    size:100px;
+   }
+   .text{
+       text-align: center;
+       margin: 50px;           
+   }
+   #newStyle{
+     align-items: baseline;
+     display: flex;
+      flex-wrap:wrap;
+      size:100px;
+   }
