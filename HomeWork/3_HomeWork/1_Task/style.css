@@ -1,0 +1,123 @@
+.head{
+    display: flex;
+}
+.imghead{
+    height: 100px;
+    
+}
+.texthead{
+    color:rgb(29, 62, 158);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.cont{
+    background-color: rgb(10, 7, 6);
+    margin: 10px;
+
+    display: flex;
+}
+.iconfoot{
+    display: inline;
+    float: right;
+    margin-right: 2%;
+}
+.diva
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: white;
+}
+ul{
+    list-style: none;
+
+}
+.footdiv{
+    float: left;
+    display: inline;
+}
+#fb{
+    width: 30px;
+}
+#fb:hover {
+    content: url('img/fb.png');
+    }
+
+#inst{
+    width: 30px;
+}
+#inst:hover {
+    content: url('img/insta.png');
+    }
+
+#yt{
+    width: 30px;
+}
+#yt:hover {
+    content: url('img/youtube.png');
+    }
+li{
+    display: inline;
+    color: rgb(52, 74, 201);
+    margin: 1px;
+    padding: 8px;
+}
+.navli2:hover {
+    background-color: rgba(0, 97, 241, 0.685);
+  }
+.navli
+{
+    display: block;
+    color: rgb(243, 244, 250);
+    margin: 1px;
+    padding: 8px;
+}
+
+.navli:hover{
+    text-decoration: underline;
+}
+
+
+.aside1{
+    background-color: royalblue;
+    margin: 13px;
+    float:left;
+    color: white;
+    width: 20%;
+  }
+  .aside2{
+    background-color: royalblue;
+    margin: 13px;
+    float:left;
+    color: white;
+    clear:left;
+    width: 20%;
+  }
+
+  .aside3{
+    background-color: royalblue;
+    margin: 13px;
+    float:right;
+    color: white;
+    width: 8%;
+    
+  }
+  main{
+    background-color: royalblue;
+    display: flow-root;
+    align-items: center;
+    margin: 20px;
+  }
+  h1{
+    text-align: center;
+    color: white;
+}
+
+.maincontent{
+    color: white;
+}
+footer{
+    background-color: royalblue;
+}
