@@ -1,0 +1,41 @@
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    min-width: max-content;
+}
+th {
+    position: sticky;
+    top: -1px;
+    background-color: salmon;
+}
+.divfirst{
+    max-height: 150px;
+    overflow-y: scroll;
+    margin: 20px;
+}
+.divsecond{
+    padding: 10px
+}
+tbody >tr:nth-child(even){
+    background-color: goldenrod;
+}
+tbody >tr:nth-child(odd){
+    background-color: rgb(8, 115, 223);
+}
+.verctical{
+    background-color: salmon;
+    position:sticky;
+    width: 5em;
+    left: 0;
+}
+/* .cls{
+    z-index:99999999;
+    position:sticky;
+    background-color: salmon;
+} */
+thead th:first-child {
+    left: 0;
+    z-index: 1;
+  }
