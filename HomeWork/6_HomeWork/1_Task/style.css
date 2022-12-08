@@ -1,0 +1,47 @@
+nav{
+    background:#015aff;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    width:60px;
+    transition: all 1s ease;
+    color:transparent;
+}
+
+html, body {
+    height: 100%; 
+    overflow: auto;
+}
+
+nav:hover{
+    width:200px;
+    display: block;
+    transition: all 1s ease;
+    color:white;
+}
+.textmenu{
+    color: rgb(255, 255, 255);
+    margin-left: 6px;
+    margin-top: 5px;
+}
+nav>li{
+    list-style: none;
+   
+}
+nav>li:hover{
+    background-color: rgb(58, 58, 228);
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+.sometext{
+    margin-left: 15%;
+    margin-right: 15%;
+}
