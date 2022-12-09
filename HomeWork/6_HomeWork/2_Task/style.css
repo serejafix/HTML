@@ -1,0 +1,152 @@
+body{
+    display:flex;
+    background-color: rgb(110, 145, 241);
+}
+.enterprice{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: inset;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 5px rgb(0, 0, 0);
+    margin: 5px;
+}
+.enterprice:hover{
+    transform: scale(1.09);
+}
+.professional:hover{
+    transform: scale(1.09);
+}
+.basic:hover{
+    transform: scale(1.09);
+}
+.standart:hover{
+    transform: scale(1.09);
+}
+.professional{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: inset;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 5px rgb(0, 0, 0);
+    margin: 5px;
+}
+.standart{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: inset;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 5px rgb(0, 0, 0);
+    margin: 5px;
+}
+.basic{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: inset;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 5px rgb(0, 0, 0);
+    margin: 5px;
+}
+.text1{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.hr1{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    background: rgb(255, 0, 0);
+}
+.hr2{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    background: rgb(250, 121, 0);
+}
+.hr3{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    background: rgb(0, 68, 253);
+}
+.hr4{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    background: rgb(49, 243, 0);
+}
+
+
+.text2{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size:35px;
+}
+.text3{
+    display: inline-block;
+    font-weight: bold;
+    font-size:small;
+    color: rgb(120, 132, 236);
+}
+.text4{
+    display: inline-block;
+    font-weight: bold;
+    font-size:small;
+    margin-top: 5px;
+    color: rgb(3, 3, 3);
+}
+.buy{
+    display: inline-block;
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    vertical-align: middle;
+}
+.buy2{
+    display: inline-block;
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+     background: rgb(250, 121, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    vertical-align: middle;
+}
+.buy3{
+    display: inline-block;
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+     background: rgb(250, 121, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    background: rgb(0, 68, 253);
+}
+.buy4{
+    display: inline-block;
+    margin-top: 10px;
+    width: 60px;
+    height: 20px;
+     background: rgb(250, 121, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    background: rgb(49, 243, 0);
+}
