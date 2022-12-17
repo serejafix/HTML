@@ -100,5 +100,22 @@ hr{
     #date{
         position: absolute;
         right: 2%;
+        /* margin-bottom: 50px; */
+    }
+    #second{
+        display: block;
+    } 
+    /* #second>#second2{
+        display: block;
+    }  */
+    #atach{
+        position: absolute;
+        right: 15%;
+    }
+    #hrline{
+        position: absolute;
+    }
+    .message>.messagecontainer{
+        margin: 15%;
     }
 }

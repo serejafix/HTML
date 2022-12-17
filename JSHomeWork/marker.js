@@ -68,17 +68,21 @@ class Marker{
   }
     this.#markerColor = color;
   }
+  get getMarkerColor(){
+    return this.#markerColor;
+  }
   print(text)
   {
     const spaces1 = text.split(' ').length - 1;
     var markerProc = this.#markerLive * 2 + spaces1;
-
+    var buffer;
     for(var i = 0; i <= markerProc-1; i++)
     {
-      document.write(`<h1 style="color:${this.#markerColor}">${text[i]}</h1>`)
+      buffer += text[i];
     }
+    return buffer;
   }
 }
 
 const marker = new Marker("green",4);
-marker.print("errer eer erererrereeerrereerererrerer");
+document.write(`<h1 style="color:${marker.getMarkerColor}">${print("errer eer erererrereeerrereerererrerer")}</h1>`);
