@@ -1,0 +1,84 @@
+
+body{
+    background-color: dodgerblue;
+    
+}
+.main{
+    color: rgb(229, 255, 0); overflow: hidden;
+
+}
+span{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+.img1{
+    border-color: hsla(240, 97%, 28%, 0);
+    background:rgb(3, 3, 124);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+}
+.img2{
+    border-color: hsla(240, 97%, 28%, 0);
+    background:rgb(3, 3, 124);
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+.textimg1{
+    color: antiquewhite;
+    font-size: 14px;
+    margin-right: 5%;
+    float: right;
+}
+.textimg2{
+    color: antiquewhite;
+    font-size: 14px;
+    margin-right: 5%;
+    text-align:end;
+}
+.block1{
+    display: flex;
+    margin-bottom: 5%;
+}
+.block2{
+    display: flex;
+}
+
+@media only screen  and (max-width:800px){
+    .block1{
+     display: inline-block;
+    }
+    /* .block2{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+    .img2{
+        position: absolute;
+        right: 10%;
+        top:16%;
+    }
+}
+@media only screen  and (max-width:600px){
+    .block2{
+     display: flex;
+     flex-direction: column-reverse;
+    }
+    .block1{
+     display: inline-block;
+    } 
+    .img2{
+     position: relative;
+     top:0;
+     right: 0;
+    }
+    #second2{
+            flex-wrap: wrap;
+    }
+ }
