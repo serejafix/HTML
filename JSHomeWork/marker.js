@@ -75,7 +75,7 @@ class Marker{
   {
     const spaces1 = text.split(' ').length - 1;
     var markerProc = this.#markerLive * 2 + spaces1;
-    var buffer;
+    var buffer = "";
     for(var i = 0; i <= markerProc-1; i++)
     {
       buffer += text[i];
@@ -85,4 +85,5 @@ class Marker{
 }
 
 const marker = new Marker("green",4);
-document.write(`<h1 style="color:${marker.getMarkerColor}">${print("errer eer erererrereeerrereerererrerer")}</h1>`);
+
+document.write(`<h1 style="color:${marker.getMarkerColor}">${marker.print("errereererererrereeerrereerererrerer")}</h1>`);
