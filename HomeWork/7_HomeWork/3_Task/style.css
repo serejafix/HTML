@@ -38,9 +38,7 @@ hr{
     margin: 5px;
     width: 150px;
 }
-.menu>ul>li a{
-    display:inline-flex;   
-}
+
 .menu>ul>li img{
     vertical-align:middle;
 }
@@ -59,7 +57,7 @@ hr{
     margin-top: 2%;
 }
 .message>.messagecontainer:hover{
-   background-color: antiquewhite;
+   background-color: rgb(233, 226, 226);
 }
 .main{
     display: flex;
@@ -97,25 +95,47 @@ hr{
     }
 }
 @media only screen  and (max-width:800px){
+    .messagecontainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
     #date{
-        position: absolute;
-        right: 2%;
-        /* margin-bottom: 50px; */
+        order:-1;
+    }
+    #atach{
+        order:-2;
+    }
+    #first{
+        order:-3;
+        margin-right: 50%;
+    }
+    #star{
+        order:-4;
+        margin-right: 2px;
     }
     #second{
         display: block;
-    } 
-    /* #second>#second2{
+        margin-left: 15px;
+    }
+    #second2{
         display: block;
-    }  */
-    #atach{
-        position: absolute;
-        right: 15%;
     }
-    #hrline{
-        position: absolute;
+     .message>.messagecontainer{
+        margin-right: 10px;
+        height: 62px;
+        margin: 6px;
+        margin-top: 2%;
     }
-    .message>.messagecontainer{
-        margin: 15%;
+}
+@media only screen  and (max-width:550px){
+    .menu>ul>li span{
+        display: none;
     }
+    .menu>ul>li{
+        list-style: none;
+        margin-left: -25px;
+        width: 32px;
+        margin-right: 15px;
+    }
+    
 }
