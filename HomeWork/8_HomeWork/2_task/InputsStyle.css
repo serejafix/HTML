@@ -1,0 +1,52 @@
+
+span{
+    font-size:larger;
+    font-weight: bold;
+}
+.input1{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    margin-left: -1px;
+    border-radius: 5px;
+}
+.input2{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style:double;
+}
+.input3{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style:double;
+}
+.icon1 {
+    position: absolute;
+    color: green;
+    left: 310px;
+    top: 48px;
+}
+.icon3 {
+    position: absolute;
+    color: red;
+    left: 480px;
+    top: 52px;
+    font-size: 15px;
+}
+
+.input2:valid +.icon1:after{
+    content: '✔';
+}
+.input2:valid{
+    border-color: green;
+}
+.input3:invalid +.icon3:after{
+    content: '❌'; 
+}
+.input3:invalid{
+    border-color: rgb(255, 0, 0);
+}

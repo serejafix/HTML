@@ -1,0 +1,70 @@
+.button1{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(3, 240, 82);
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button2{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(14, 117, 49);
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button3{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(235, 55, 0);
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button4{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(117, 29, 14);
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button5{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(133, 133, 133);
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button6{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(9, 250, 49);
+    padding: 0;
+    border: none;
+    border-radius: 60%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button7{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(250, 25, 9);
+    padding: 0;
+    border: none;
+    border-radius: 60%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="InputsStyle.css" rel="stylesheet">
+        <link href="check.css" rel="stylesheet">
+        <link href="radio.css" rel="stylesheet">
+        <link href="btn.css" rel="stylesheet">
+        <link href="textarea.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="inputs">
+            <span>Inputs</span><br>
+
+            <input class="input1" type="text"  placeholder="Input some text">
+            <input class="input2" type="text" pattern="\w{3,5}" placeholder="Input some text">
+            <span class="icon1"></span>
+            <input class="input3" type="text" pattern="\w{3,3}" placeholder="Input some text">
+            <span class="icon3"></span>
+        </div>
+        <div class="checks">
+            <span class="checktext">CHECK BOXES</span><br>
+            <input class="style1" id="toggle" type="checkbox" name="" id="">
+            <label for="toggle" class="switch"></label>
+            <span style="font-size:small;">Subcribe</span>
+            <input class="style2" id="toggle2" type="checkbox" checked>
+            <label for="toggle2" class="switch2"></label>
+            <span style="font-size:small;">Subcribe</span>
+        </div>
+        <div class="radio">
+            <span>RADIO BUTTONS</span><br>
+
+            <span style="font-size:small;">Gender:</span>
+            <input class="radioinput1" type="radio" id="choice1" name="gender">
+            <label for="choice1">Male</label>
+            <input class="radioinput2" type="radio" id="choice2"  name="gender">
+            <label for="choice2">Female</label>
+        </div>
+        <div class="btn">
+            <button class="button1">Active</button>
+            <button class="button2">Hover</button>
+            <button class="button3">Danger</button>
+            <button class="button4">Hover</button>
+            <button class="button5">Disable</button>
+            <button class="button6">+</button>
+            <button class="button7">-</button>
+        </div>
+        <div class="textarea">
+            <span>TEXT AREA</span><br>
+            <textarea rows="10" cols="40" name="message">Your text...</textarea>
+        </div>
+    </body>
+</html>

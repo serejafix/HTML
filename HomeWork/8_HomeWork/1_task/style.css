@@ -1,0 +1,96 @@
+.fullform{
+    width: 430px;
+    height: 330px;
+    background-color: rgb(45, 105, 129);
+    border-radius: 10px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.fullform>.linetext{
+    position: absolute;
+    width: 300px;
+    height: 25px;
+    background-color: coral;
+    margin-top: 20px;
+    left:25px;
+    
+}
+.fullform>.linetext>span{
+    margin-left: 40px;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size:small;
+    vertical-align: middle;
+}
+form{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+#lbl{
+    color: rgb(11, 53, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    width: 50px;
+}
+input{
+    width:200px;
+    height:30px;
+    outline: 0;
+     border-width: 0 0 2px;
+    background-color:rgb(145, 215, 218);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}   
+input:focus{
+    border-color: cornflowerblue;
+}
+#numberDate{
+    color: rgb(11, 53, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: -5px;
+    margin-left: -1px
+}
+#number2{
+    color: rgb(11, 53, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#bottomCard{
+    margin-top: 20px;
+    display: flex;
+}
+#i1{
+    margin: 5px;
+}
+#i2{
+    margin: 5px;  
+}
+#i3{
+    margin: 5px;
+}
+#date2{
+    margin-top: 28px;
+    display: flex;
+    margin-left:1px;
+    height: 27px;
+    width: 80px;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }

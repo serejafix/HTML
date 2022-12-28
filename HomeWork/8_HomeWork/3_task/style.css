@@ -1,0 +1,263 @@
+body{
+    width: 910px;
+}
+span{
+    font-size: larger;
+    margin:10px;
+}
+#inp{
+    margin-left: 10px;
+}
+.reg{
+    display: inline-block;
+}
+.personal{
+    display: inline-block;
+    vertical-align: top;
+}
+#inp2{
+    margin-left: 10px;
+}
+
+#inp>img{
+    width: 25px;
+    margin-top: 10px;
+}
+#inp2>img{
+    width: 25px;
+    margin-top: 10px;
+}
+
+#inp>input{
+   vertical-align:super;
+   width:400px;
+    height:30px;
+    outline: 0;
+     border-width: 0 0 2px;
+    background-color:rgb(250, 250, 250);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-indent: 10px;
+}
+
+#inp2>input{
+    vertical-align:super;
+    width:184px;
+     height:30px;
+     outline: 0;
+      border-width: 0 0 2px;
+     background-color:rgb(250, 250, 250);
+     margin-top: 10px;
+     margin-bottom: 5px;
+     text-indent: 10px;
+     margin-right: 25px;
+ }
+ #name>input{
+    vertical-align:super;
+    width:185px;
+     height:30px;
+     outline: 0;
+      border-width: 0 0 2px;
+     background-color:rgb(250, 250, 250);
+     margin-top: 10px;
+     margin-bottom: 5px;
+     text-indent: 10px;
+     margin-right: 25px;
+ }
+ #date>select{
+    vertical-align:super;
+    width:190px;
+     height:30px;
+     outline: 0;
+      border-width: 0 0 2px;
+     background-color:rgb(250, 250, 250);
+
+     text-indent: 10px;
+     margin-right: 25px;
+ }
+ .politicacheck{
+    margin:10px;
+    margin-top: 40px;
+ }
+ .politicacheck>input{
+    margin:8px;
+ }
+ #date>#dateinpt{
+    vertical-align:super;
+    width:185px;
+     height:30px;
+     outline: 0;
+      border-width: 0 0 2px;
+     background-color:rgb(250, 250, 250);
+     margin-top: 10px;
+     margin-bottom: 5px;
+     text-indent: 10px;
+     margin-right: 25px;
+ }
+button{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(18, 119, 119);
+    border-radius: 3px;
+    border: 0;
+    color: aliceblue;
+}
+@media screen and (max-width:900px){
+
+    .personal{
+        display: block;
+        margin: 5px;
+    }
+    #name{
+        margin-left: 32px;
+    }
+    #date{
+        margin-left: 32px;
+    }
+    button{
+       right: 0;
+       position: fixed;
+    }
+    #inp>input{
+        width: 700px;
+    }
+    #inp2>input{
+        width: 334px;
+    }
+    #name>input{
+        width: 334px;
+    }
+    #date>select{
+        width: 336px;
+    }
+    #date>#dateinpt{
+        width: 336px;
+    }
+}
+@media screen and (max-width:750px){
+    .personal{
+        display: block;
+        margin: 5px;
+    }
+    #name{
+        margin-left: 32px;
+    }
+    #date{
+        margin-left: 32px;
+    }
+    button{
+       right: 0;
+       position: fixed;
+    }
+    #inp>input{
+        width: 640px;
+    }
+    #inp2>input{
+        width: 304px;
+    }
+    #name>input{
+        width: 304px;
+    }
+    #date>select{
+        width: 306px;
+    }
+    #date>#dateinpt{
+        width: 306px;
+    }
+}
+@media screen and (max-width:700px){
+    .personal{
+        display: block;
+        margin: 5px;
+    }
+    #name{
+        margin-left: 32px;
+    }
+    #date{
+        margin-left: 32px;
+    }
+    button{
+       right: 0;
+       position: fixed;
+    }
+    #inp>input{
+        width: 590px;
+    }
+    #inp2>input{
+        width: 280px;
+    }
+    #name>input{
+        width: 280px;
+    }
+    #date>select{
+        width: 280px;
+    }
+    #date>#dateinpt{
+        width: 280px;
+    }
+}
+@media screen and (max-width:650px){
+    .personal{
+        display: block;
+        margin: 5px;
+    }
+    #name{
+        margin-left: 32px;
+    }
+    #date{
+        margin-left: 32px;
+    }
+    button{
+       right: 0;
+       position: fixed;
+    }
+    #inp>input{
+        width: 540px;
+    }
+    #inp2>input{
+        width: 253px;
+    }
+    #name>input{
+        width: 255px;
+    }
+    #date>select{
+        width: 250px;
+    }
+    #date>#dateinpt{
+        width: 265px;
+    }
+}
+@media screen and (max-width:600px){
+    #inp>input{
+        width: 340px;
+    }
+    #inp2>input:last-child{
+        display: block;
+        margin-left: 26px;
+        width: 343px;
+    }
+    #inp2>input{
+        width: 340px;
+    }
+    
+    #name>input:last-child{
+        display: block;
+        
+        width: 343px;
+    }
+    #name>input{
+        width: 340px;
+    }
+    #date>#dateinpt{
+        display: block;
+        
+        width: 343px;
+    }
+    #date>select{
+        width: 345px;
+        margin-top: 10px;
+    }
+}
