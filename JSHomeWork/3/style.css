@@ -14,10 +14,8 @@
     gap: 10px;
     overflow: hidden;
   }
-  
-  
   .modal {
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -26,9 +24,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
-  
-  .modal-body {
+  .modal-body{
     background: #fff;
     padding: 20px;
   }

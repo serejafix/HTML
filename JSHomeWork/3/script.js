@@ -123,19 +123,31 @@ const openModal = (e) => {
 
 [...imageContainer.children].forEach(link => link.addEventListener('click', openModal));
 
+
  function close(){
    if(document.getElementById('btn'))
-   {
+   { 
      const a = document.getElementById('btn');
-
      a.addEventListener('click',closefunc);
+      if(document.getElementsByClassName('modal')[0]){
+      const elem1 = document.getElementsByClassName('modal')[0];
+      const elem2 = document.getElementsByClassName('modal-body')[0];
+       elem2.addEventListener('mouseleave', (e)=>{     
+        elem1.addEventListener('click',closefunc);
+       });
+       elem2.addEventListener('mouseover', (e)=>{     
+        elem1.removeEventListener('click',closefunc,false);
+       });
+      }
    }
  }
  function closefunc(){
-        const a = document.getElementsByClassName('modal');
-          const b = document.getElementsByClassName('modal-body');
-          const children = document.getElementsByClassName('modal-body>img');
-          a[0].remove();
-          b[0].remove();
-          children[0].remove();
+          if(document.getElementsByClassName('modal'))
+          {
+            const a = document.getElementsByClassName('modal');
+            if(a)
+          {
+            a[0].remove();
+          }
+          }
  }
