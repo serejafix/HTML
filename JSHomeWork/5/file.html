@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+    <div class="main">
+        <label for="">Кофейку?:)</label><br>
+        <select id="cash">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>    
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">5</option>     
+        </select>
+        <button id="but" onclick="btnAddMoney()">Add Money</button><br>
+        <input id="money" disabled value="No Money"></input><br>
+        <div id="radiomenu">
+            <div>
+                <input id="menu" type="radio" name="drink" value="1" class="Water">
+                <label for="Water">Water 1</label>
+            </div>
+            <div>
+                <input id="menu" type="radio" name="drink" value="3" class="Tea">
+                <label for="Tea">Tea 3</label>
+            </div>
+            <div>
+                <input id="menu" type="radio" name="drink" value="5" class="Coffee">
+                <label for="Coffee">Coffee 5</label>
+            </div>
+            <div>
+                <input id="menu" type="radio" name="drink" value="10" class="Capuccino">
+                <label for="Capuccino">Capuccino 10</label>
+            </div>
+        </div>
+        <button id="btnget" onclick="btnGetDrink()">Get Drink</button>
+        <input id="outdrink" disabled></input><br>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>

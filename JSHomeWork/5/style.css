@@ -1,0 +1,12 @@
+.main{
+    background-color: rgba(44, 9, 85, 0.253);
+    width: 255px;
+}
+#money{
+    margin: 2px;
+    border: 2px solid rgba(0, 171, 238, 0.274);
+    width: 110px;
+}
+#radiomenu{
+    display: block;
+}
