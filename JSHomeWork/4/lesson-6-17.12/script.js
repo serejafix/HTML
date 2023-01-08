@@ -133,12 +133,21 @@ imgZoom.addEventListener('mouseover', zoomOver);
  });
 
  function srcrolling(){
-  var scroY = window.scrollY;
-  var section = document.getElementsByClassName('section');
-  for (var index = 0; index < section.length; index++) {
-    if(section[index].offsetTop <= scroY){
-      section[index].style.color += 'green';
+   var scroY = window.scrollY;
+   var menus = document.querySelectorAll('nav a');
+   var section = document.querySelectorAll('section');
+   section.forEach(elem => {
+    if(elem.offsetTop <= scroY)
+    {
+        menus.forEach((element) => {
+        if(element.getAttribute('href').replace('#','') === elem.getAttribute('id')){     
+          element.style.color = 'green';
+          }
+          else{
+            element.style.color = 'grey';
+          }
+     });
     }
-  }   
+  });
  }
 document.addEventListener('scroll',srcrolling);
