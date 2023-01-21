@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(217, 218, 219);
+}
+table, tr, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #96D4D4;
+    text-align: center;
+}
+th{
+    padding: 0 2px 5px;
+    line-height: 20px;
+    background-color:rgb(10, 102, 145);
+    color: antiquewhite;
+}
+table
+{
+    width:80%;
+    border:4px solid gray;
+    padding:2px;
+}
+#header{
+    background-color: rgb(236, 239, 243);
+    width: 100%;
+}
+#header>nav>a{
+    margin: 50px;
+    text-decoration: none;
+    
+}
+#header>nav>a:hover{
+    background-color: rgb(233, 163, 13);
+}
+
+#btnadd{
+    width: 70px;
+    height: 20px;
+    margin: 1px;
+}
+#btndelete{
+    width: 70px;
+    height: 20px;
+    margin: 1px;
+}

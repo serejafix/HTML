@@ -2,7 +2,7 @@ var btn = document.getElementById('addpercent');
 
 var bar = document.getElementById('progressbar');
 
-
+console.log(bar);
 
 function addpercent(){
     var width1 = bar.offsetWidth;

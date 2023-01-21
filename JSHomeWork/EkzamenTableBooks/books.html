@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bodybook">
+            <header id="header">
+                <nav class="links" style="--items: 5;">
+                    <a href="#">Главная</a>
+                    <a href="#">Показать книги</a>
+                    <a href="#">Поиск</a>
+                    <a href="#">Добавить книгу</a>
+                    <span class="line"></span>
+                </nav>
+            </header>
+            <div id="addbook">
+                <span>Добавить книгу</span>
+                <input id="bookname" type="text" placeholder="Имя книги">
+                <input id="authorname" type="text" placeholder="Имя автора">
+                <input id="countcopies"  type="text" placeholder="Количество копий">
+                <button id="btnadd">Добавить</button>
+            </div>
+            <div id="deletebookbyname">
+                <span>Удалить по имени</span>
+                <input id="namefordelete" type="text" placeholder="Имя книги">
+                <button id="btndelete" >Удалить</button>
+            </div>
+            <div id="editbook">
+                
+            </div>
+            <div id="tablebook">
+                <table id="BookTable">
+                    <thead>
+                    <tr>
+                        <th>Book-Name</th>
+                        <th>Author-Name</th>
+                        <th>Number of copies</th>
+                        <!-- <th>Delete</th> -->
+                      </tr>
+                    </thead>
+                    <!-- <tr>
+                      <td>Row1 cell1</td>
+                      <td>Row1 cell2</td>
+                      <td>Row1 cell2</td>
+                    </tr>
+                    <tr>
+                      <td>Row2 cell1</td>
+                      <td>Row2 cell2</td>
+                      <td>Row2 cell2</td>
+                    </tr>
+                    <tr>
+                      <td>Row3 cell1</td>
+                      <td>Row3 cell2</td>
+                      <td>Row3 cell2</td>
+                    </tr> -->
+                  </table>
+                  <br>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
