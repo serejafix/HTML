@@ -32,15 +32,33 @@
     height: 20px;
     margin-top: -30px;
 }
+#Авакадо{
+    background-color: rgb(40, 170, 94);
+    width: 180px;
+    height: 50px;
+    margin:10px;
+}
+#Абрикос{
+    background-color: rgb(241, 198, 5);
+    width: 180px;
+    height: 50px;
+    margin:10px;
+} 
+#Апельсин{
+    background-color: rgba(241, 139, 4, 0.795);
+    width: 180px;
+    height: 50px;
+    margin:10px;
+} 
+
 .fruit{
     margin: 5px;
     display:inline-table;
 }
 #bluediv{
-    width: 100px;
+    width: 180px;
     height: 20px;
-
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(215, 223, 107);
 }
 p{
     font-size: 20px;
