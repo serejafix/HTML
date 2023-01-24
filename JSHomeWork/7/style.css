@@ -1,0 +1,5 @@
+.col-md-3>img{
+    width: 194px;
+    height: 299px;
+    object-fit: cover;
+}
