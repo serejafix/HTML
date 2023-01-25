@@ -1,0 +1,11 @@
+.block {
+    display: none;
+  }
+  .block>img{
+    width: 100px;
+    height: 100px;
+  } 
+  .block:target{
+    display: block;
+   
+  }
